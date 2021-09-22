@@ -113,7 +113,7 @@ namespace Student.Tests
             testStudent.GivenName = "Bob";
             testStudent.Surname = "Bobson";
             
-            Assert.Equal("ID: 10, Name: Bob Bobson, StartDate: 01.01.2015, EndDate: 01.01.2019, GraduationDate: 01.01.2020, Status: Dropout",testStudent.ToString());
+            Assert.Equal("ID: 10, Name: Bob Bobson, StartDate: 01/01/2015, EndDate: 01/01/2019, GraduationDate: 01/01/2020, Status: Dropout",testStudent.ToString());
         }
     }
 }

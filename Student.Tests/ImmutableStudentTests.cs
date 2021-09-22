@@ -17,7 +17,7 @@ namespace Student.Tests
                 EndDate = new DateTime(2019,1,1),
                 GraduationDate = new DateTime(2020,1,1)
                 };
-            Assert.Equal("ImmutableStudent { id = 1, GivenName = Bob, Surname = Bobson, StartDate = 01.01.2015 00.00.00, EndDate = 01.01.2019 00.00.00, GraduationDate = 01.01.2020 00.00.00, Status = Dropout }",testStudent.ToString());
+            Assert.Equal("ImmutableStudent { id = 1, GivenName = Bob, Surname = Bobson, StartDate = 01/01/2015 00:00:00, EndDate = 01/01/2019 00:00:00, GraduationDate = 01/01/2020 00:00:00, Status = Dropout }",testStudent.ToString());
         }
 
         [Fact]
